@@ -14,9 +14,13 @@ The dataset contains daily observations from 2019 to 2022. The target variable i
 - holidays
 
 # Steps
-The analysis included data preprocessing, missing value handling, exploratory time series analysis, trend and seasonality decomposition, feature engineering and forecasting.
-Several external regressors were created to account for factors that could influence the number of views.
-Different forecasting approaches were then compared using time-series cross-validation.
+The analysis included:
+- data preprocessing
+- missing value handling
+- exploratory time series analysis
+- trend and seasonality decomposition
+- feature engineering
+- forecasting
 
 # Models
 The following forecasting methods were used:
