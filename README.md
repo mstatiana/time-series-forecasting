@@ -7,15 +7,13 @@ This project focuses on time series analysis and forecasting of daily views of s
 The goal of the project was to analyze historical data, identify trends and seasonal patterns, evaluate the influence of external factors, compare different forecasting approaches, and build a forecast for the next year
 
 # Data
-The dataset contains daily observations from 2019 to 2022
+The dataset contains daily observations from 2019 to 2022. The target variable is the daily number of short-term rental listing views/ Several external factors were also considered, including:
+- Daily Active Users (DAU)
+- COVID-19 period
+- introduction of a new search feature
+- holidays
 
-The target variable is the daily number of short-term rental listing views
-Several external factors were also considered, including:
-Daily Active Users (DAU)
-COVID-19 period
-introduction of a new search feature
-holidays
-
+# Steps
 The analysis included data preprocessing, missing value handling, exploratory time series analysis, trend and seasonality decomposition, feature engineering and forecasting.
 Several external regressors were created to account for factors that could influence the number of views.
 Different forecasting approaches were then compared using time-series cross-validation.
