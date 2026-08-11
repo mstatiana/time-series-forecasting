@@ -4,7 +4,7 @@ Time series forecasting of short-term rental listing views using Prophet, MSTL a
 
 # About the Project
 This project focuses on time series analysis and forecasting of daily views of short-term rental listings in Kaliningrad.
-The goal of the project was to analyze historical data, identify trends and seasonal patterns, evaluate the influence of external factors, compare different forecasting approaches, and build a forecast for the next year
+The aim of the project is to analyze historical data, identify trends and seasonal patterns, evaluate the influence of external factors, compare different forecasting approaches, and build a forecast for the next year
 
 # Data
 The dataset contains daily observations from 2019 to 2022. The target variable is the daily number of short-term rental listing views/ Several external factors were also considered, including:
