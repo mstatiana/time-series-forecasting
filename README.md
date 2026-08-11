@@ -1,2 +1,33 @@
-# time-series-forecasting
+# Time Series Forecasting
+
 Time series forecasting of short-term rental listing views using Prophet, MSTL and external regressors
+
+# About the Project
+This project focuses on time series analysis and forecasting of daily views of short-term rental listings in Kaliningrad.
+The goal of the project was to analyze historical data, identify trends and seasonal patterns, evaluate the influence of external factors, compare different forecasting approaches, and build a forecast for the next year
+
+#Data
+The dataset contains daily observations from 2019 to 2022
+The target variable is the daily number of short-term rental listing views
+Several external factors were also considered, including:
+Daily Active Users (DAU)
+COVID-19 period
+introduction of a new search feature
+holidays
+
+The analysis included data preprocessing, missing value handling, exploratory time series analysis, trend and seasonality decomposition, feature engineering and forecasting.
+Several external regressors were created to account for factors that could influence the number of views.
+Different forecasting approaches were then compared using time-series cross-validation.
+
+#Models
+The following forecasting methods were used:
+Prophet
+MSTL
+Auto-ARIMAX
+
+#Evaluation
+The forecasting models were evaluated with MAPE (Mean Absolute Percentage Error) and time-series cross-validation.
+The models were compared based on their forecasting accuracy and the behavior of their long-term forecasts
+
+
+
