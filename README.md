@@ -20,12 +20,12 @@ Different forecasting approaches were then compared using time-series cross-vali
 
 # Models
 The following forecasting methods were used:
-Prophet
-MSTL
-Auto-ARIMAX
+- Prophet
+- MSTL
+- Auto-ARIMAX
 
 # Evaluation
-The forecasting models were evaluated with MAPE (Mean Absolute Percentage Error) and time-series cross-validation.
+The forecasting models were evaluated with MAPE and time-series cross-validation.
 The models were compared based on their forecasting accuracy and the behavior of their long-term forecasts
 
 
